@@ -1,0 +1,45 @@
+body{
+    background-color: #71456e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.todo-container{
+
+    width: 400px;
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #c4859f6c;
+    border-radius: 20px;
+}
+
+.head{
+
+}
+.item{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+font-weight: bolder;
+}
+.btn{
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #71456e;
+    color: #fff;
+}
+.btn:hover{
+    background-color: #5c2959;
+}
+.todo-span{
+    margin-left: 5px;
+    /* font-size: 25px; */
+}
